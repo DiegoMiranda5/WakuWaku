@@ -20,7 +20,6 @@ public class Principal {
         TrianguloRectangulo triRect = new TrianguloRectangulo("Triangulo Rectangulo", 12, 12, 50);
         
         cuadrado.dibujarTxt();
-        rect.dibujarTxt();
         triRect.dibujarTxt();
     }
     
