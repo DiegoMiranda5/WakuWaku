@@ -2,18 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package figuras;
+package Excepciones;
 
 /**
  *
  * @author diego
  */
-public class Cuadrado extends Rectangulo{
+public class NoCaracterExcepcion extends Exception {
 
-    public Cuadrado(String nombre, int lado) {
-        super(nombre, lado, lado);
+    public NoCaracterExcepcion() {
+        super("No se permiten caracteres");
     }
-    
-    
+
+    public NoCaracterExcepcion(String message) {
+        super(message);
+    }
     
 }
